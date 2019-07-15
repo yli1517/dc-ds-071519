@@ -1,2 +1,5 @@
 # DC-DS-071519
-gjhjghj
+
+Welcome to the class. 
+We are SO EXCITED that you are here.
+-Alison 
