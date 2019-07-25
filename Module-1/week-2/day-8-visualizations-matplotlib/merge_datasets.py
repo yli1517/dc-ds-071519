@@ -13,6 +13,3 @@ def merge_intake_outcomes(data1, data2):
 
     animal_shelter_df['days_in_shelter'] = (animal_shelter_df['o_date'] - animal_shelter_df['i_date']).dt.days
     return animal_shelter_df
-
-                                                              
-
