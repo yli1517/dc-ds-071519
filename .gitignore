@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
-#ignore data folder
+# Data files that are too large for github (.csv, .xls, .etc)
 data/
 
 # Distribution / packaging

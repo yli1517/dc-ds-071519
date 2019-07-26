@@ -8,7 +8,10 @@ def merge_intake_outcomes(data1, data2):
         - returns animal_shelter_df
     """
     animal_shelter_df  = pd.merge(data1, data2, on=['id', 'year'], how='left', suffixes=('_intake', '_outcome'))
+<<<<<<< HEAD
     animal_shelter_df  = pd.merge(data1, data2, on=['id', 'year'], how='left', suffixes=('_intake', '_outcome'))
+=======
+>>>>>>> bfe175d89cb4dd91aac2dcf1f3fe15dd4bdb4a2e
 
     animal_shelter_df = animal_shelter_df[(~animal_shelter_df['o_date'].isna()) &                                           (animal_shelter_df['o_date'] > animal_shelter_df['i_date'])]
 
